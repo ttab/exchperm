@@ -5,4 +5,4 @@ Script removes access to the mailbox if users is removed from sec group.
 
 Requirement
 -----------
-Description field on the ad-object ( the shared mailbox user ) is going to be used to save the " uSNChanged " value from sec group. So the script can match the current value on group. This way the script dont need to run the whole script, only if the sec groups have been modified.
+Description field on the AD-object ( the shared mailbox user ) is going to be used to save the " uSNChanged " value from sec group. So the script can match the current value on group. This way the script dont need to run the whole script, only if the sec groups have been modified.
